@@ -112,7 +112,7 @@ def _get_parser():
     parser.add_argument("--url_root", type=str, default="/translator")
     parser.add_argument("--debug", "-d", action="store_true")
     parser.add_argument("--config", "-c", type=str,
-                        default="./available_models/conf.json")
+                        default="/available_models/conf.json")
     return parser
 
 
